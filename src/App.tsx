@@ -1,8 +1,10 @@
 import Calendar from './components/Calendar';
+import NotificationManager from './components/NotificationManager';
 
 function App() {
   return (
     <div className="min-h-screen bg-gray-100 py-12 px-4">
+      <NotificationManager />
       <div className="max-w-4xl mx-auto">
         <header className="text-center mb-12">
           <h1 className="text-4xl font-extrabold text-gray-900 mb-2">Eudoria Calendar</h1>

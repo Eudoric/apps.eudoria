@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, Gift, Utensils, Star, Info } from 'lucide-react';
-import { MONTH_NAMES, WEEK_DAYS, getNogaDate, formatNogaDate } from '../utils/nogaCalendar';
+import { MONTH_NAMES, WEEK_DAYS, getNogaDate } from '../utils/nogaCalendar';
 import { EUDORIA_EVENTS } from '../utils/events';
 
 const Calendar: React.FC = () => {
